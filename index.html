@@ -55,8 +55,7 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+           
         </div>
     </div>
 
@@ -168,6 +167,8 @@
         </div>
     </section>
 
+    <!-- Hakkımızda Bitiş -->
+
     <!-- İletişim -->
     <section id="iletisim" class="py-5">
         <div class="container">
@@ -194,17 +195,21 @@
         </div>
     </section>
 
+    <!-- İletişim Bitiş -->
+
     <!-- Footer -->
     <footer class="bg-dark text-light py-4">
         <div class="container text-center">
             <p>&copy; 2024 E-Ticaret Sitesi. Tüm hakları saklıdır.</p>
-            <div class="social-icons">
+            <div>
                 <a href="#" class="text-light me-3"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" class="text-light me-3"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" class="text-light"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </div>
     </footer>
+
+    <!-- Footer Bitiş -->
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -219,12 +224,11 @@
             pagination: {
                 el: '.swiper-pagination',
             },
-
-              // Navigasyon Okları
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            autoplay: {
+                delay: 3000, // 3 saniye aralıkla
             },
+
+             
         });
     </script>
 </body>
